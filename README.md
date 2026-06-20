@@ -13,6 +13,22 @@ Live corpus: **11 PDFs → 14,049 chunks**. Retrieval pipeline p95 **~1.1 s**; e
 
 ---
 
+## Demo
+
+**Home — one question box over the whole library**
+
+![PaperTrail home screen: the hero question box with example prompts, over a 14,049-passage, 11-document corpus](Demo/1.png)
+
+**A streamed, cited answer — with sources, retrieval inspector, and latency**
+
+![PaperTrail answering "State Newton's second law and give its equation": inline University Physics page citations, six source cards with similarity and rerank scores, the 15-passage retrieval inspector, and a per-stage latency strip totalling about 1.9 seconds](Demo/2.png)
+
+*Answering “State Newton's second law and give its equation.” — inline `[University Physics p.NNN]` citations,
+6 source cards (similarity + rerank scores), the 15-passage retrieval inspector, and a per-stage latency strip
+(~1.9 s total).*
+
+---
+
 ## The web interface
 
 `uvicorn api:app --port 8000`, then open **http://localhost:8000** — a single dark, Linear-style chat app
