@@ -1,0 +1,42 @@
+[
+  {
+    "question": "How many people, including the hijackers, were aboard United Airlines Flight 93?",
+    "file": "9-11_Commission_Report.pdf",
+    "answer_keywords": ["37"]
+  },
+  {
+    "question": "At what time did the hijackers begin their assault on the cockpit of United 93?",
+    "file": "9-11_Commission_Report.pdf",
+    "answer_keywords": ["9:28"]
+  },
+  {
+    "question": "At what time did American Airlines Flight 11 crash into the North Tower of the World Trade Center?",
+    "file": "9-11_Commission_Report.pdf",
+    "answer_keywords": ["8:46"]
+  },
+  {
+    "question": "At what time did United Airlines Flight 175 hit the South Tower?",
+    "file": "9-11_Commission_Report.pdf",
+    "answer_keywords": ["9:03"]
+  },
+  {
+    "question": "At what time did American Airlines Flight 77 strike the Pentagon?",
+    "file": "9-11_Commission_Report.pdf",
+    "answer_keywords": ["9:37"]
+  },
+  {
+    "question": "What kind of information-sharing 'network' did the Commission recommend the government create?",
+    "file": "9-11_Commission_Report.pdf",
+    "answer_keywords": ["trusted information network"]
+  },
+  {
+    "question": "In which terrorist plot was Khalid Sheikh Mohammed involved together with Ramzi Yousef?",
+    "file": "9-11_Commission_Report.pdf",
+    "answer_keywords": ["Manila"]
+  },
+  {
+    "question": "What new agency did the Commission recommend to unify intelligence, sometimes called the NCTC?",
+    "file": "9-11_Commission_Report.pdf",
+    "answer_keywords": ["National Counterterrorism Center"]
+  }
+]
