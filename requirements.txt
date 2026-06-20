@@ -1,0 +1,37 @@
+# RAG Chatbot (Challenge 1) — Python dependencies (Windows / Python 3.13)
+#
+#   pip install -r requirements.txt
+#
+# NOTE: No PyTorch required. Embeddings & reranking run on onnxruntime via
+# fastembed, which deliberately avoids the SciPy / scikit-learn compiled DLLs
+# that Windows "Smart App Control" blocks on this machine (see README).
+
+# --- PDF extraction + OCR ---
+pymupdf>=1.24.0
+rapidocr>=2.0.0
+onnxruntime>=1.20.0
+langdetect>=1.0.9
+
+# --- Embeddings + reranking (free / open-source, onnxruntime) ---
+fastembed>=0.8.0
+tokenizers>=0.21.0
+
+# --- Vector DB (free / open-source, embedded) ---
+qdrant-client>=1.11.0
+
+# --- LLM providers (hosted, open-source models) ---
+groq>=0.13.0
+# GLM (Zhipu) is used as a fallback via plain `requests` (see rag/llm.py).
+# (mistralai is intentionally omitted: its wheel ships broken on Python 3.13 here.)
+
+# --- App / API ---
+streamlit>=1.39.0
+fastapi>=0.115.0
+uvicorn>=0.32.0
+
+# --- Utilities ---
+python-dotenv>=1.0.1
+tqdm>=4.66.0
+numpy>=2.0.0
+pandas>=2.2.0
+requests>=2.32.0
